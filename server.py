@@ -7,8 +7,8 @@ import sys,time
 import websocket
 from bottle import get,post,run,request,template
 
-CONTROL_PORT=8081
-HTML_PORT=8080
+CONTROL_PORT=10437
+HTML_PORT=10247
 CONTROL_CMDS=['left', 'right', 'front', 'rear']
 control_cmd = 'stop'
 
