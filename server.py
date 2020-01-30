@@ -74,5 +74,5 @@ def server_program(control_port):
 ################################################
 
 _thread.start_new_thread(server_program, (CONTROL_PORT,))
-run(host="127.0.0.1", port=HTML_PORT)
+run(host="0.0.0.0", port=HTML_PORT)
 
